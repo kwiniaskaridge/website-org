@@ -32,7 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    logo: './illustrations/home.svg',
+    logo: '../illustrations/home.svg',
     nav: [
       {
         text: 'Declaration of Panned Community',
