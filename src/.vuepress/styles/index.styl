@@ -1,0 +1,58 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;600&family=MuseoModerno&display=swap');
+
+@css {
+  body {
+    @apply bg-gray-200 dark:bg-gray-800
+  }
+  p {
+    @apply text-gray-900 dark:text-gray-100 max-w-prose !important
+  }
+  h1 {
+    font-family: 'MuseoModerno', cursive;
+    @apply text-yellow-700 dark:text-yellow-200 text-4xl
+  }
+  h2 {
+    font-family: 'Mukta Vaani', sans-serif;
+    border-bottom: none;
+    @apply text-pink-700 dark:text-pink-200 text-2xl font-bold
+  }
+  h3 {
+    @apply text-blue-700 dark:text-blue-200 font-semibold
+  }
+  .sidebar, .navbar, .links {
+    border: none;
+    @apply bg-gray-100 dark:bg-gray-900 !important
+  }
+  a.sidebar-link {
+    @apply font-semibold
+  }
+  a {
+    @apply dark:text-blue-100 !important
+  }
+  a:hover {
+    @apply text-yellow-600 dark:text-yellow-200 !important
+  }
+  a.active {
+    @apply text-yellow-600 dark:text-yellow-200 font-bold !important
+  }
+  .sidebar-heading {
+    font-family: 'Mukta Vaani', sans-serif !important;
+    @apply text-pink-700 dark:text-pink-200 text-2xl font-bold !important
+  }
+  .kwiniaska-description {
+    @apply mx-auto max-w-prose text-center text-lg font-serif
+  }
+  .site-name {
+    font-family: 'MuseoModerno', cursive !important;
+    @apply text-yellow-700 dark:text-yellow-200 text-2xl !important
+  }
+}

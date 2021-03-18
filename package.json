@@ -1,0 +1,31 @@
+{
+  "name": "kwiniaska-ridge-website-docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Kwiniaska Ridge HOA",
+    "email": "info@kwiniaskaridge.org"
+  },
+  "repository": "https://github.com/kwiniaskaridge/website-docs.git",
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "git-cz": "^4.7.6",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "@kawarimidoll/vuepress-plugin-tailwind": "^2.0.0",
+    "vue-inline-svg": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
