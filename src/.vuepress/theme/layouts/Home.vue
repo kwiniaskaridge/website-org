@@ -1,34 +1,18 @@
 
 <template>
-    <main v-if="$page.frontmatter.home" class="
-      auto-rows-max
-      grid 
-      h-screen
-      grid-flow-row
-      place-content-center
-    ">
+    <main v-if="$page.frontmatter.home" class="home-layout">
       <Navbar
         v-if="shouldShowNavbar"
         @toggle-sidebar="toggleSidebar"
       />
-      <inline-svg :src="data.heroImage"/>
-
-      <h1 class="
-      mx-auto
-      mb-5
-      dark:text-gray-200 
-      font-bold
-      text-7xl 
-      text-gray-800 
-      ">{{$site.title}}</h1>
-
-      <h2 class="
-      mx-auto mb-4
-      dark:text-gray-200 
-      text-2xl
-      italic
-      ">{{data.tagline}}</h2>
-      <p class="kwiniaska-description">{{data.description}}</p>
+      <div class="column-1">
+        <inline-svg class="home-image" :src="data.heroImage"/>
+      </div>
+      <div class="column-2">
+        <h1 class="home-heading">{{$site.title}}</h1>
+        <h2 class="home-subheading">{{data.tagline}}</h2>
+        <p class="home-description">{{data.description}}</p>
+      </div>
     </main>
 </template>
 
@@ -70,6 +54,12 @@ components: {
         && this.sidebarItems.length
       )
     }
+  },
+  methods: {
+    toggleSidebar (to) {
+      this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      this.$emit('toggle-sidebar', this.isSidebarOpen)
+    },
   }
 }
 </script>
