@@ -27,8 +27,7 @@ documents.forEach(async file => {
             }
           }
         }
-      }`,
-      { login: "octokit" }
+      }`
       );
       // Get indices of start and end of TOC
       const document = repository.object;
