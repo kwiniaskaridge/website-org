@@ -36,7 +36,7 @@ module.exports = {
     nav: [
       {
         text: 'Declaration of Panned Community',
-        link: '/declaration-of-planned-community/',
+        link: '/declaration-planned-community/',
       },
       {
         text: 'Bylaws',
