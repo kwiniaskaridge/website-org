@@ -9,7 +9,7 @@
         <inline-svg class="home-image" :src="data.heroImage"/>
       </div>
       <div class="column-2">
-        <h1 class="home-heading">{{$site.title}}</h1>
+        <h1 class="home-heading">Welcome to<br>{{$site.title}}</h1>
         <h2 class="home-subheading">{{data.tagline}}</h2>
         <p class="home-description">{{data.description}}</p>
       </div>

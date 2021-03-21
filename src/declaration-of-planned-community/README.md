@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Declaration of Planned Community for Kwiniaska Ridge
+# Declaration of Planned Community
 
 This Declaration of Planned Community for Kwiniaska Ridge (the "Declaration") is made by The Snyder Shelburne Properties, LLC, a Vermont limited liability company with a place of business in Shelburne, Vermont ("Declarant").
 
