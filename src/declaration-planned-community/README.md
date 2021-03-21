@@ -1,4 +1,9 @@
-# Declaration of Planned Community for Kwiniaska Ridge
+---
+sidebar: auto
+---
+
+# Declaration of Planned Community
+
 This Declaration of Planned Community for Kwiniaska Ridge (the "Declaration") is made by The Snyder Shelburne Properties, LLC, a Vermont limited liability company with a place of business in Shelburne, Vermont ("Declarant").
 1. Declarant is the owner in fee simple of a 51.04 acre, more or less, parcel of land in Shelburne, Vermont on the west side of Spear Street (the "Property") as shown on the following plats: "Lands of ABC/MRC, Inc., Spear Street, Shelburne, Vermont, Subdivision (South)," Sheet PL-2, prepared by Lamoureux & Dickinson Consulting Engineers, Inc. dated May 23, 2017, last revised April 12, 2019, and recorded in Map Slide 894B of the Town of Shelburne Land Records; and "Lands of ABC/MRC, Inc., Spear Street, Shelburne, Vermont, Subdivision (North)," Sheet PL-3, prepared by Lamoureux & Dickinson Consulting Engineers, Inc. dated May 23, 2017, last revised April 12, 2019, and recorded in Map Slide 895A of the TOwn of Shelburne Land Records (collectively, the "Plat").
 1. The Property has received permits and approvals for the subdivision and development of ninety-one (91) lots designated as Lots S1–S27, 1C–28C and T1–T36 on the Plat and on the Plans (the "Lots"), of which Lots S1–S27 are single-family home lots (the "Single Family Lots"), Lots 1C–28C are each designed for use and occupancy by a carriage home on each building footprint lot (the "Carriage Home Lots"), Lots T1–T36 are each designed for use and occupancy by an attached townhome on each building footprint lot (the "Townhome Lots") and eight (8) open space parcels designated as Open Space Parcels 1–8 on the Plat and Plans.
@@ -336,4 +341,5 @@ Neither the Association nor the Declarant shall be held liable for any loss or d
 ### Section 17.6 - Governing Law
 This Declaration shall be governed by and construed in accordance with the laws of the State of Vermont, without giving effect to such jurisdiction's principles of conflicts of laws.
 ### Section 17.7 - Conflicts
+
 In the event of a conflict between the Declarant and the Bylaws, the Declaration shall control except to the extent the Declaration is inconsistent with the Act, in which event the Act shall control.

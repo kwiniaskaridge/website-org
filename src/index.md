@@ -4,10 +4,10 @@ home: true
 heroImage: ./illustrations/undraw_Nature_fun_re_iney.svg
 tagline: "Shelburne, VT"
 description: |
-  Kwiniaska Ridge is a stunning new luxury 91-unit subdivision on over 50 acres in Shelburne, 
-  Vermont, designed in the modern farmhouse style.  With acres of common green space, immediate 
-  access to Kwiniaska Golf Club, and views in all directions, this is luxury Vermont living at 
-  its best.
+  Kwiniaska Ridge is an exclusive new subdivision overlooking the rolling hills
+  of Kwiniaska Golf Club in Shelburne, Vermont.  With luscious green commons,
+  walking trails, and  easy access to local attractions, this is luxury Vermont
+  living at its best.
 actionText: Quick Start →
 actionLink: /guide/
 features:

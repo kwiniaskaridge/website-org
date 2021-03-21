@@ -1,4 +1,9 @@
-# Bylaws of Kwiniaska Ridge Homeonwers' Association, Inc.
+---
+sidebar: auto
+---
+
+# Bylaws
+
 ## Article 1 - Plan of Lot Ownership
 ### Section 1.1 - Applicability
 These Bylaws provide for the governance of the Kwiniaska Ridge Homeowners' Association, Inc. (the "Association"), and being more particularly described in the Declaration of Planned Community for Kwiniaska Ridge Planned Community dated of or about even date herewith to be recorded in the Town of Shelburne Land Records (the "Declaration").
@@ -274,4 +279,5 @@ All notices, demands, bills, statements or other communications shall be in writ
 ### Section 6.4 - Captions
 The captions herein are inserted only as a matter of convenience and for reference, and in no way define, limit or describe the scope of these Bylaws or the intent of any provisions thereof.
 ### Section 6.5 - Gender
+
 The use of the masculine gender in these Bylaws shall be deemed to include the feminine and neuter genders and the use of the singular shall be deemed to include the plural, and vice versa, whenever the context so requires.
