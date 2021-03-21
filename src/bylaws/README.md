@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Bylaws of Kwiniaska Ridge Homeonwers' Association, Inc.
+# Bylaws
 
 ## Article 1 - Plan of Lot Ownership
 
