@@ -6,92 +6,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;600&family=MuseoModerno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;600&family=Yeseva+One&family=Open+Sans&display=swap');
 
 @css {
   html, body {
-    @apply 
-      bg-gray-200 
+    @apply
+      bg-gray-200
       dark:bg-gray-800 !important
   }
   p, li {
-    @apply 
-      text-gray-900 
-      dark:text-gray-100 
+    @apply
+      text-gray-900
+      dark:text-gray-100
       max-w-prose !important
   }
   h1 {
-    font-family: 'MuseoModerno', cursive;
-    @apply 
-      text-yellow-700 
-      dark:text-yellow-200 
-      text-4xl
+    font-family: 'Yeseva One';
+    @apply
+      text-3xl
   }
   h2 {
     font-family: 'Mukta Vaani', sans-serif;
     border-bottom: none;
-    @apply 
-      text-pink-700 
-      dark:text-pink-200 
-      text-2xl 
-      font-bold
+    @apply
+      text-2xl
+      font-semibold
   }
   h3 {
-    @apply 
-      text-blue-700 
-      dark:text-blue-200 
+    @apply
+      text-green-700
+      dark:text-green-200
       font-semibold
   }
   h4 {
-    @apply 
-      text-blue-700 
-      dark:text-blue-200
+    @apply
+      text-green-700
+      dark:text-green-200
   }
   .sidebar, .navbar, .links {
     border: none;
-    @apply 
-      bg-gray-100 
+    @apply
+      bg-gray-100
       dark:bg-gray-900 !important
   }
   a.sidebar-link {
-    @apply 
+    @apply
       font-semibold
   }
   a {
-    @apply 
+    @apply
       dark:text-blue-100 !important
   }
-  a:hover {
-    @apply 
-      text-yellow-600 
-      dark:text-yellow-200 !important
-  }
   a.active {
-    @apply 
-      text-yellow-600 
-      dark:text-yellow-200 
+    @apply
       font-bold !important
   }
   .sidebar-heading {
     font-family: 'Mukta Vaani', sans-serif !important;
-    @apply 
-      dark:text-pink-200 
-      text-pink-700
-      text-2xl 
+    @apply
+      text-2xl
       font-bold !important
   }
   .home-layout {
-    @apply 
+    @apply
       auto-rows-max
-      grid 
+      grid
       h-screen
       grid-cols-1
       md:grid-cols-2
       place-content-center
   }
   .home-image {
-    @apply 
+    @apply
       w-11/12
       mx-auto
       pt-64
@@ -100,16 +87,15 @@
       md:mb-0
   }
   .column-2 {
-    @apply 
+    @apply
       grid
-      place-content-center 
+      place-content-center
   }
   .home-heading {
-    @apply 
+    @apply
       mb-5
-      dark:text-gray-200 
-      font-bold
-      text-7xl 
+      dark:text-gray-200
+      text-5xl
       text-gray-800
       text-center
       md:text-left
@@ -117,29 +103,28 @@
       md:px-0
   }
   .home-subheading {
-    @apply 
-      mb-4 
-      dark:text-gray-200 
-      text-2xl 
-      italic
+    @apply
+      mb-4
+      dark:text-gray-200
+      text-2xl
       text-center
-      md:text-left 
+      md:text-left
     }
   .home-description {
-    @apply 
-      max-w-prose 
+    font-family: 'Open Sans' !important;
+    @apply
+      max-w-prose
       text-center
-      md:text-left 
-      text-lg 
+      md:text-left
+      text-lg
       font-serif
       px-8
       md:px-0
   }
   .site-name {
-    font-family: 'MuseoModerno', cursive !important;
-    @apply 
-      text-yellow-700 
-      dark:text-yellow-200 
+    font-family: 'Open Sans' !important;
+    font-weight: normal !important;
+    @apply
       text-2xl !important
   }
 }
