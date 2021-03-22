@@ -14,7 +14,7 @@
     "prebuild": "yarn fetch",
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "fetch": "node -r dotenv/config src/fetchConstitution.mjs"
+    "fetch": "node -r dotenv/config fetch-constitution.mjs"
   },
   "license": "MIT",
   "devDependencies": {

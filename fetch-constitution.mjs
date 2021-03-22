@@ -1,4 +1,4 @@
-import config from './.vuepress/config.js';
+import config from './src/.vuepress/config.js';
 import { Octokit } from '@octokit/core';
 import fs from 'fs';
 import path from 'path';
@@ -46,6 +46,8 @@ documents.forEach(async file => {
       documentArray.splice(tocIndices.start, tocIndices.end);
       document.text = documentArray.filter(element => element != '').join('\n');
   
+      const frontmatter = `---\nsidebar: auto\n---\n\n`
+
       // Save files
       const dir = path.join('src', file);
       const docPath = path.join(dir, 'README.md')
@@ -54,7 +56,7 @@ documents.forEach(async file => {
           fs.mkdirSync(dir);
       }
   
-      fs.writeFile(`${docPath}`, document.text , (error) => { 
+      fs.writeFile(`${docPath}`, frontmatter + document.text , (error) => { 
           if (error) throw err; 
       }) 
     }
