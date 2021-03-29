@@ -30,6 +30,7 @@
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.10.1",
+    "ember-bootstrap-theme-leap": "git+ssh://git@github.com/kwiniaskaridge/ember-bootstrap-theme-leap.git#57c01f7",
     "ember-cli": "~3.24.0",
     "ember-cli-app-version": "^4.0.0",
     "ember-cli-babel": "^7.23.0",
@@ -37,6 +38,7 @@
     "ember-cli-fastboot": "^2.2.3",
     "ember-cli-htmlbars": "^5.3.1",
     "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-cli-sass": "^10.0.1",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.1",
     "ember-data": "~3.24.0",
@@ -60,7 +62,8 @@
     "prember": "^1.0.5",
     "prettier": "^2.2.1",
     "qunit": "^2.13.0",
-    "qunit-dom": "^1.6.0"
+    "qunit-dom": "^1.6.0",
+    "sass": "^1.32.8"
   },
   "engines": {
     "node": "10.* || >= 12"
